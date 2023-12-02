@@ -4,10 +4,8 @@ import re
 txt_file='alice.txt'
 conll_fil='alice.txt.conll'
 
-
 text='hello.there'
 print(re.search('[^A-Za-z0-9\s\w]',text))
-
 
 nouns_l= ['NN', 'NNS', 'NNP', 'NNPS']
 verbs_l= ['VB', 'VBD', 'VBG', 'VBN', 'VBP','VBZ']
