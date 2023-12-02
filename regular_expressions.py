@@ -1,4 +1,3 @@
-#https://qiita.com/yamaru/items/255d0c5dcb2d1d4ccc14
 import json
 import re
 
