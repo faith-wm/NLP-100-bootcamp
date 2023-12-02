@@ -173,8 +173,6 @@ print(feature_importance[:10])
 
 
 
-
-
 #58. Regularization parameters
 model2 = LogisticRegression(solver='sag',penalty='l2',multi_class='ovr',max_iter=1000,warm_start=True)
 model2.fit(X_train_tfidf,y_train)
@@ -205,14 +203,6 @@ print ("test accuracy LR, Count Vectors accuracy: ", test_accuracy)
 
 valid_accuracy= metrics.accuracy_score(valid_predictions, y_valid)
 print ("valid accuracy LR, Count Vectors accuracy: ", valid_accuracy)
-
-
-#GridSearchCV
-
-
-
-
-
 
 
 
