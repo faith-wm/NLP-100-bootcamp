@@ -1,8 +1,3 @@
-
-
-# https://qiita.com/yamaru/items/e06014b146a18e97ca59
-# https://linuxtut.com/en/e06014b146a18e97ca59/
-
 from collections import defaultdict
 import re
 
