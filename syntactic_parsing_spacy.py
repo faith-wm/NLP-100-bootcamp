@@ -1,10 +1,3 @@
-
-
-
-#https://linuxtut.com/en/18613a549edc68cb20ca/
-# https://qiita.com/Masaaki_Inaba/items/18613a549edc68cb20ca
-# https://stanfordnlp.github.io/stanza/installation_usage.html#getting-started
-
 import stanza
 import spacy
 from spacy import displacy
