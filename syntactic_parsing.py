@@ -1,16 +1,8 @@
-
-#https://linuxtut.com/en/18613a549edc68cb20ca/
-# https://qiita.com/Masaaki_Inaba/items/18613a549edc68cb20ca
-# https://stanfordnlp.github.io/stanza/installation_usage.html#getting-started
-
 import stanza
-
 
 json_file='ai.en.txt.json'
 text_file='ai.en.txt'
 my_parsed_file='parsed_file.txt'
-
-
 
 print('\n ------------------parse result (words)-----------------')
 
