@@ -34,8 +34,6 @@ def parse_file(txt_file, output_file_name):
 
 # parse_file(text_file,my_parsed_file)
 
-
-
 class Word:
     def __init__(self,surface, lemma, pos):
         self.surface=surface
