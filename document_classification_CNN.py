@@ -1,4 +1,3 @@
-
 import re
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -10,7 +9,6 @@ import numpy as np
 import torch.nn.functional as F
 
 random.seed(0)
-
 
 if torch.cuda.is_available():
     device = torch.device("cuda")
