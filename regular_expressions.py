@@ -7,8 +7,6 @@ def readDoc(file):
     doc = [json.loads(line) for line in open(file, 'r')]
     return doc
 
-
-
 def getUK(doc):
     for article in doc:
         key = article.keys()  # dict_keys(['title', 'text'])
@@ -139,7 +137,6 @@ def removeMediaMarkup(text):
 remove_media_markup={k: removeMediaMarkup(v) for k,v in info_box.items()}
 for k, v in remove_media_markup.items():
     print(k + ': ' + v)
-
 
 
 print('======================================\n')
