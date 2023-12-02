@@ -1,15 +1,8 @@
-
-
-
 #https://qiita.com/yamaru/items/255d0c5dcb2d1d4ccc14
-
-
 import json
 import re
 
 file='enwiki-country.json'
-
-
 
 def readDoc(file):
     doc = [json.loads(line) for line in open(file, 'r')]
