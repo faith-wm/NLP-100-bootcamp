@@ -107,7 +107,6 @@ def typoglycemia(text):
     return ' '.join(output)
 print(typoglycemia('I couldn’t believe that I could actually understand what I was reading : the phenomenal power of the human mind'))
 
-
 print('\n\n')
 print(ord('a'))
 print(chr(ord('a')))
