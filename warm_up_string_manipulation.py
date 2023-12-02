@@ -1,8 +1,3 @@
-
-
-#reversed string
-
-#slicing tutorials: https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3
 def reverseString(text):
     return text[::-1]
 
