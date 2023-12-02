@@ -6,8 +6,6 @@ import gensim
 # import spacy
 # nlp=spacy.load('en')
 
-
-
 # 70. Generating Features through Word Vector Summation
 newsCorpora='NewsAggregatorDataset/newsCorpora.csv'
 pageSessions= 'NewsAggregatorDataset/2pageSessions.csv'
