@@ -2,12 +2,9 @@ import stanza
 import spacy
 from spacy import displacy
 
-
-
 json_file='ai.en.txt.json'
 text_file='ai.en.txt'
 my_parsed_file='spacy_parsed_file.txt'
-
 
 print('\n ------------------parse result (words and dependency)-----------------')
 
