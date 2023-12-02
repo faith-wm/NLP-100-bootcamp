@@ -1,8 +1,4 @@
-
-# https://kakedashi-engineer.appspot.com/2020/05/09/nlp100-ch7/
 import gensim
-
-
 
 # #60. Loading word vectors
 model = gensim.models.KeyedVectors.load_word2vec_format(
