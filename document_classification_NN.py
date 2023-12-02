@@ -1,6 +1,3 @@
-
-# https://linuxtut.com/en/ae832a461bab8374a517/
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import string
